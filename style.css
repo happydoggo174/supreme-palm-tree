@@ -2,6 +2,15 @@
     --primary-color: #2d1b0f;
     --accent-warm: #d4a574;
 }
+.green_hover:hover{
+    background-image: linear-gradient(to bottom,green,white);
+}
+.yellow_hover:hover{
+    background-image: linear-gradient(to bottom,yellow,white);
+}
+.red_hover:hover{
+    background-image: linear-gradient(to bottom,red,white);
+}
 .main_header{
     background-image: linear-gradient(135deg, var(--primary-color) 0%, #422815 100%);
     padding: 3rem 0;
@@ -85,8 +94,9 @@
     width: 100%;
     height: 300px;
 }
-.recipe-card:hover{
-    background-image: linear-gradient(to bottom,red,white);
+.recipe-extra{
+    display: flex;
+    justify-content: space-around;
 }
 .featured-recipe-banner{
     display: block;
@@ -113,9 +123,6 @@
     .featured-recipe-card{
         flex-direction: row;
     }
-}
-.featured-recipe-card:hover{
-    background-image: linear-gradient(to right,red,white);
 }
 .featured-recipe-card .tag{
     display: block;
@@ -184,4 +191,25 @@
 }
 .nav-item:hover{
     text-decoration: underline;
+}
+.article-img{
+    max-height: 90vh;
+}
+.article-img-container{
+    display: flex;
+    justify-content: center;
+}
+.article-header .tag{
+    color: red;
+    font-size: 16px;
+    font-family: serif;
+}
+.article-header{
+    margin-left: 22px;
+}
+.article-extra{
+    display: flex;
+    justify-content: baseline;
+    gap: 18px;
+    font-size: 18px;
 }
