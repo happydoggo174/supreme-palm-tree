@@ -32,3 +32,8 @@
     display: flex;
     justify-content: space-around;
 }
+.card-link {
+    text-decoration: none; /* Removes the underline */
+    color: inherit;        /* Inherit color from parent or define a new one */
+    cursor: pointer;       /* Ensures the cursor changes to a hand icon */
+}
